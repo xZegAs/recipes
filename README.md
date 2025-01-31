@@ -26,13 +26,13 @@ To run the project locally, follow these steps:
 git clone https://github.com/xZegAs/recipes.git
 
 # Navigate to the project directory
-cd recipes-zegas
+cd recipes
 
 # Install dependencies
 npm install
 
 # Start the development server
-npm start
+npm run dev
 ```
 
 ## Live Demo
