@@ -10,7 +10,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 const router = createHashRouter([
   {
-    path: "/",
+    path: "",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
