@@ -6,7 +6,7 @@ import Home from "./Components/Home/Home";
 import MealsByCategory from "./Components/MealsByCategory/MealsByCategory";
 import MealDetails from "./Components/MealDetails/MealDetails";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+// import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 const router = createHashRouter([
   {
@@ -28,7 +28,7 @@ function App() {
     <>
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
-        <ReactQueryDevtools />
+        {/* <ReactQueryDevtools /> */}
       </QueryClientProvider>
     </>
   );
